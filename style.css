@@ -1,0 +1,35 @@
+body {
+    height: 2000px;
+}
+
+
+.header {
+    background-color: aqua;
+    padding: 20px;
+}
+.logo {
+    display: inline-block;
+    margin-left: 100px ;
+}
+.nav {
+    display: inline-block;
+    margin-left: 350px;
+}
+.nav-li {
+    display: inline-block;
+}
+.bg-image {
+    background-image: url('images/background.jpg');
+    height: 500px;
+    width: 1360px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.text {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+}
